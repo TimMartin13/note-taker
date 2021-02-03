@@ -1,0 +1,30 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "A note taker written using JavaScript and express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "Tim Martin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimMartin13/note-taker.git"
+  },
+  "keywords": [
+    "Note-taker"
+  ],
+  "bugs": {
+    "url": "https://github.com/TimMartin13/note-taker/issues"
+  },
+  "homepage": "https://github.com/TimMartin13/note-taker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
